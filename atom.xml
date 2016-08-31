@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-31T12:00:47.000Z</updated>
+  <updated>2016-08-31T12:04:58.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,38 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>what?</title>
-    <link href="http://yoursite.com/2016/08/31/what/"/>
-    <id>http://yoursite.com/2016/08/31/what/</id>
-    <published>2016-08-31T12:00:34.000Z</published>
-    <updated>2016-08-31T12:00:47.000Z</updated>
+    <title>My New Blog</title>
+    <link href="http://yoursite.com/2016/08/31/My-New-Blog/"/>
+    <id>http://yoursite.com/2016/08/31/My-New-Blog/</id>
+    <published>2016-08-31T12:03:22.000Z</published>
+    <updated>2016-08-31T12:04:58.000Z</updated>
     
-    <content type="html"><![CDATA[<p>why i can’t use it?</p>
+    <content type="html"><![CDATA[<p>用<strong>hexo</strong>搞了一个博客。<br>非常方便！<br>心情非常exciting！<br>感谢 Google!</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;why i can’t use it?&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/08/31/Hello-World/"/>
-    <id>http://yoursite.com/2016/08/31/Hello-World/</id>
-    <published>2016-08-31T11:11:16.000Z</published>
-    <updated>2016-08-31T11:50:31.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>一整天都在研究如何用<strong>hexo</strong>建立博客。<br>终于成功了！<br>心情非常exciting!!!<br>感谢 Google！<br>感谢 各种网上的教程！<br>惯例就是来一篇<em>hello world</em>文章。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一整天都在研究如何用&lt;strong&gt;hexo&lt;/strong&gt;建立博客。&lt;br&gt;终于成功了！&lt;br&gt;心情非常exciting!!!&lt;br&gt;感谢 Google！&lt;br&gt;感谢 各种网上的教程！&lt;br&gt;惯例就是来一篇&lt;em&gt;hello world&lt;/em&gt;文章。&lt;/p&gt;
+      &lt;p&gt;用&lt;strong&gt;hexo&lt;/strong&gt;搞了一个博客。&lt;br&gt;非常方便！&lt;br&gt;心情非常exciting！&lt;br&gt;感谢 Google!&lt;/p&gt;
 
     
     </summary>
