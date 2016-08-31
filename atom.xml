@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-31T11:36:06.000Z</updated>
+  <updated>2016-08-31T11:50:31.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://yoursite.com/2016/08/31/Hello-World/"/>
     <id>http://yoursite.com/2016/08/31/Hello-World/</id>
     <published>2016-08-31T11:11:16.000Z</published>
-    <updated>2016-08-31T11:36:06.000Z</updated>
+    <updated>2016-08-31T11:50:31.000Z</updated>
     
-    <content type="html"><![CDATA[<p>从早上到晚上都在研究如何用<strong>hexo</strong>建立博客。除了中午跟晚上吃饭，从早上起来到现在都是在研究这个东西。弄了快6个小时，才成功把博客弄好。<br>惯例就是来一篇<em>hello world</em>文章，非常exciting！</p>
+    <content type="html"><![CDATA[<p>一整天都在研究如何用<strong>hexo</strong>建立博客。<br>终于成功了！<br>心情非常exciting!!!<br>感谢 Google！<br>感谢 各种网上的教程！<br>惯例就是来一篇<em>hello world</em>文章。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;从早上到晚上都在研究如何用&lt;strong&gt;hexo&lt;/strong&gt;建立博客。除了中午跟晚上吃饭，从早上起来到现在都是在研究这个东西。弄了快6个小时，才成功把博客弄好。&lt;br&gt;惯例就是来一篇&lt;em&gt;hello world&lt;/em&gt;文章，非常exciting！&lt;/p&gt;
+      &lt;p&gt;一整天都在研究如何用&lt;strong&gt;hexo&lt;/strong&gt;建立博客。&lt;br&gt;终于成功了！&lt;br&gt;心情非常exciting!!!&lt;br&gt;感谢 Google！&lt;br&gt;感谢 各种网上的教程！&lt;br&gt;惯例就是来一篇&lt;em&gt;hello world&lt;/em&gt;文章。&lt;/p&gt;
 
     
     </summary>
