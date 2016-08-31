@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-31T11:00:35.000Z</updated>
+  <updated>2016-08-31T11:36:06.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,46 +16,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>About Me</title>
-    <link href="http://yoursite.com/2016/08/31/About-Me/"/>
-    <id>http://yoursite.com/2016/08/31/About-Me/</id>
-    <published>2016-08-31T10:59:12.000Z</published>
-    <updated>2016-08-31T11:00:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>嘿嘿</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;嘿嘿&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/08/31/hello-world/"/>
-    <id>http://yoursite.com/2016/08/31/hello-world/</id>
-    <published>2016-08-31T06:28:57.000Z</published>
-    <updated>2016-08-31T06:28:57.000Z</updated>
+    <link href="http://yoursite.com/2016/08/31/Hello-World/"/>
+    <id>http://yoursite.com/2016/08/31/Hello-World/</id>
+    <published>2016-08-31T11:11:16.000Z</published>
+    <updated>2016-08-31T11:36:06.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<p>从早上到晚上都在研究如何用<strong>hexo</strong>建立博客。除了中午跟晚上吃饭，从早上起来到现在都是在研究这个东西。弄了快6个小时，才成功把博客弄好。<br>惯例就是来一篇<em>hello world</em>文章，非常exciting！</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;从早上到晚上都在研究如何用&lt;strong&gt;hexo&lt;/strong&gt;建立博客。除了中午跟晚上吃饭，从早上起来到现在都是在研究这个东西。弄了快6个小时，才成功把博客弄好。&lt;br&gt;惯例就是来一篇&lt;em&gt;hello world&lt;/em&gt;文章，非常exciting！&lt;/p&gt;
+
     
     </summary>
     
