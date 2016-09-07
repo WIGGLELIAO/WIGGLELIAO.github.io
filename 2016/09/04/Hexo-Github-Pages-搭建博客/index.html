@@ -1,113 +1,115 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><meta name="author" content="WIGGLE"><link rel="icon" href="/hexo.jpg"><title>WIGGLE</title><meta name="description"><link rel="alternate" type="application/rss+xml" title="WIGGLE" href="/atom.xml"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/css/highlight.css"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-</head><body><nav class="navbar navbar-default navbar-fixed-top navbar-custom"><div class="container-fluid"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#main-navbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">WIGGLE</a></div><div id="main-navbar" class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right"><li><a href="/archives">Archive</a></li><li><a href="/about/">About</a></li></ul></div><div class="avatar-container"><div class="avatar-img-border"><a href="/"><img src="/hexo.jpg" class="avatar-img"></a></div></div></div></nav><header class="header-section"><div class="intro-header no-img"><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class="post-heading"><h1>Hexo + Github Pages 搭建博客</h1><p class="post-meta">Posted on Sep 4 2016</p></div></div></div></div></div></header><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><article role="main" class="blog-post"><h2 id="什么是-Hexo"><a href="#什么是-Hexo" class="headerlink" title="什么是 Hexo ?"></a>什么是 Hexo ?</h2><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a> 是一个快速、简洁且高效的博客框架。</p>
-<h2 id="快速安装-Hexo"><a href="#快速安装-Hexo" class="headerlink" title="快速安装 Hexo"></a>快速安装 Hexo</h2><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方文档</a> 可以帮助我们快速安装 Hexo 。</p>
-<p>需要两个应用程序</p>
+</head><body><nav class="navbar navbar-default navbar-fixed-top navbar-custom"><div class="container-fluid"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#main-navbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">WIGGLE</a></div><div id="main-navbar" class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right"><li><a href="/archives">Archive</a></li><li><a href="/about/">About</a></li></ul></div><div class="avatar-container"><div class="avatar-img-border"><a href="/"><img src="/hexo.jpg" class="avatar-img"></a></div></div></div></nav><header class="header-section"><div class="intro-header no-img"><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class="post-heading"><h1>Hexo + Github Pages 搭建博客</h1><p class="post-meta">Posted on Sep 4 2016</p></div></div></div></div></div></header><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><article role="main" class="blog-post"><h2 id="&#x4EC0;&#x4E48;&#x662F;-Hexo"><a href="#&#x4EC0;&#x4E48;&#x662F;-Hexo" class="headerlink" title="&#x4EC0;&#x4E48;&#x662F; Hexo ?"></a>&#x4EC0;&#x4E48;&#x662F; Hexo ?</h2><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a> &#x662F;&#x4E00;&#x4E2A;&#x5FEB;&#x901F;&#x3001;&#x7B80;&#x6D01;&#x4E14;&#x9AD8;&#x6548;&#x7684;&#x535A;&#x5BA2;&#x6846;&#x67B6;&#x3002;</p>
+<h2 id="&#x5FEB;&#x901F;&#x5B89;&#x88C5;-Hexo"><a href="#&#x5FEB;&#x901F;&#x5B89;&#x88C5;-Hexo" class="headerlink" title="&#x5FEB;&#x901F;&#x5B89;&#x88C5; Hexo"></a>&#x5FEB;&#x901F;&#x5B89;&#x88C5; Hexo</h2><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo&#x5B98;&#x65B9;&#x6587;&#x6863;</a> &#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x5FEB;&#x901F;&#x5B89;&#x88C5; Hexo &#x3002;</p>
+<p>&#x9700;&#x8981;&#x4E24;&#x4E2A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;</p>
 <ul>
 <li>Node.js</li>
 <li>Git</li>
 </ul>
-<h4 id="Node-js-安装"><a href="#Node-js-安装" class="headerlink" title="Node.js 安装"></a>Node.js 安装</h4><ul>
-<li>在 <a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js官网</a> 直接下载安装包 (V4.5.0 LTS) 打开安装即可。</li>
+<h4 id="Node-js-&#x5B89;&#x88C5;"><a href="#Node-js-&#x5B89;&#x88C5;" class="headerlink" title="Node.js &#x5B89;&#x88C5;"></a>Node.js &#x5B89;&#x88C5;</h4><ul>
+<li>&#x5728; <a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js&#x5B98;&#x7F51;</a> &#x76F4;&#x63A5;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x5305; (V4.5.0 LTS) &#x6253;&#x5F00;&#x5B89;&#x88C5;&#x5373;&#x53EF;&#x3002;</li>
 </ul>
-<h4 id="Git-安装"><a href="#Git-安装" class="headerlink" title="Git 安装"></a>Git 安装</h4><p>我们可以通过 <a href="http://brew.sh" target="_blank" rel="external">Homebrew</a> 来安装 Git 。<br>在 <em>终端</em> 输入以下代码即可安装 Git 。</p>
+<h4 id="Git-&#x5B89;&#x88C5;"><a href="#Git-&#x5B89;&#x88C5;" class="headerlink" title="Git &#x5B89;&#x88C5;"></a>Git &#x5B89;&#x88C5;</h4><p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <a href="http://brew.sh" target="_blank" rel="external">Homebrew</a> &#x6765;&#x5B89;&#x88C5; Git &#x3002;<br>&#x5728; <em>&#x7EC8;&#x7AEF;</em> &#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x5373;&#x53EF;&#x5B89;&#x88C5; Git &#x3002;</p>
 <ul>
-<li><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code> #安装 Homebrew </li>
-<li><code>brew install git</code> #安装 Git </li>
+<li><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code> #&#x5B89;&#x88C5; Homebrew </li>
+<li><code>brew install git</code> #&#x5B89;&#x88C5; Git </li>
 </ul>
-<h4 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h4><p>完成上述步骤即可在终端输入<code>npm install -g hexo-cli</code> 安装 Hexo 。</p>
-<h2 id="本地化-Hexo"><a href="#本地化-Hexo" class="headerlink" title="本地化 Hexo"></a>本地化 Hexo</h2><ol>
-<li>创建一个文件夹。例如我创建了一个名为 <strong>Blog</strong> 的文件夹。</li>
-<li>打开<em>终端</em>，输入以下命令。</li>
+<h4 id="&#x5B89;&#x88C5;-Hexo"><a href="#&#x5B89;&#x88C5;-Hexo" class="headerlink" title="&#x5B89;&#x88C5; Hexo"></a>&#x5B89;&#x88C5; Hexo</h4><p>&#x5B8C;&#x6210;&#x4E0A;&#x8FF0;&#x6B65;&#x9AA4;&#x5373;&#x53EF;&#x5728;&#x7EC8;&#x7AEF;&#x8F93;&#x5165;<code>npm install -g hexo-cli</code> &#x5B89;&#x88C5; Hexo &#x3002;</p>
+<h2 id="&#x672C;&#x5730;&#x5316;-Hexo"><a href="#&#x672C;&#x5730;&#x5316;-Hexo" class="headerlink" title="&#x672C;&#x5730;&#x5316; Hexo"></a>&#x672C;&#x5730;&#x5316; Hexo</h2><ol>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x3002;&#x4F8B;&#x5982;&#x6211;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; <strong>Blog</strong> &#x7684;&#x6587;&#x4EF6;&#x5939;&#x3002;</li>
+<li>&#x6253;&#x5F00;<em>&#x7EC8;&#x7AEF;</em>&#xFF0C;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x3002;</li>
 </ol>
 <ul>
-<li><code>cd Blog</code> # 有关 hexo 的命令都要先切换到 Blog文件夹，后面将不再提示。</li>
+<li><code>cd Blog</code> # &#x6709;&#x5173; hexo &#x7684;&#x547D;&#x4EE4;&#x90FD;&#x8981;&#x5148;&#x5207;&#x6362;&#x5230; Blog&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x540E;&#x9762;&#x5C06;&#x4E0D;&#x518D;&#x63D0;&#x793A;&#x3002;</li>
 <li><code>hexo init</code> </li>
 <li><code>npm intall</code> </li>
 </ul>
-<p>完成以上命令，Hexo会在 Blog 文件夹中建立所需文件。</p>
-<h4 id="预览建立的网站。"><a href="#预览建立的网站。" class="headerlink" title="预览建立的网站。"></a>预览建立的网站。</h4><p>我们可以预览我们建立的网站，继续在 <em>终端</em> 输入以下命令。</p>
+<p>&#x5B8C;&#x6210;&#x4EE5;&#x4E0A;&#x547D;&#x4EE4;&#xFF0C;Hexo&#x4F1A;&#x5728; Blog &#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x5EFA;&#x7ACB;&#x6240;&#x9700;&#x6587;&#x4EF6;&#x3002;</p>
+<h4 id="&#x9884;&#x89C8;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x7AD9;&#x3002;"><a href="#&#x9884;&#x89C8;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x7AD9;&#x3002;" class="headerlink" title="&#x9884;&#x89C8;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x7AD9;&#x3002;"></a>&#x9884;&#x89C8;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x7AD9;&#x3002;</h4><p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x9884;&#x89C8;&#x6211;&#x4EEC;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x7AD9;&#xFF0C;&#x7EE7;&#x7EED;&#x5728; <em>&#x7EC8;&#x7AEF;</em> &#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x3002;</p>
 <ul>
 <li><code>hexo g</code></li>
 <li><code>hexo s</code></li>
 </ul>
-<p>随后我们在 Safari 打开 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 即可预览我们建立的网站。但是这个网站只能我们自己本地看，所以我们需要部署 Hexo 到 Github Pages 才行。<br>最后别忘了在 <em>终端</em> 按下 <code>control + C</code> 来退出。</p>
-<h2 id="部署-Hexo-到-Github-Pages"><a href="#部署-Hexo-到-Github-Pages" class="headerlink" title="部署 Hexo 到 Github Pages"></a>部署 Hexo 到 Github Pages</h2><p>首先我们需要一个 Github 账号，如果还没有的话，则需要到 <a href="https://github.com/" target="_blank" rel="external">Github</a> 注册一个。<br>注册完成之后我们就可以开始创建自己的 Github Pages。</p>
-<h4 id="创建-Github-Pages"><a href="#创建-Github-Pages" class="headerlink" title="创建 Github Pages"></a>创建 Github Pages</h4><ol>
-<li><p>点击右上角的 <strong>+</strong> 选择 <strong>New repository</strong>。<br><img src="Hexo-Github-Pages-搭建博客/14727920175854.png" alt="-w236"></p>
+<p>&#x968F;&#x540E;&#x6211;&#x4EEC;&#x5728; Safari &#x6253;&#x5F00; <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> &#x5373;&#x53EF;&#x9884;&#x89C8;&#x6211;&#x4EEC;&#x5EFA;&#x7ACB;&#x7684;&#x7F51;&#x7AD9;&#x3002;&#x4F46;&#x662F;&#x8FD9;&#x4E2A;&#x7F51;&#x7AD9;&#x53EA;&#x80FD;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x672C;&#x5730;&#x770B;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x90E8;&#x7F72; Hexo &#x5230; Github Pages &#x624D;&#x884C;&#x3002;<br>&#x6700;&#x540E;&#x522B;&#x5FD8;&#x4E86;&#x5728; <em>&#x7EC8;&#x7AEF;</em> &#x6309;&#x4E0B; <code>control + C</code> &#x6765;&#x9000;&#x51FA;&#x3002;</p>
+<h2 id="&#x90E8;&#x7F72;-Hexo-&#x5230;-Github-Pages"><a href="#&#x90E8;&#x7F72;-Hexo-&#x5230;-Github-Pages" class="headerlink" title="&#x90E8;&#x7F72; Hexo &#x5230; Github Pages"></a>&#x90E8;&#x7F72; Hexo &#x5230; Github Pages</h2><p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4E00;&#x4E2A; Github &#x8D26;&#x53F7;&#xFF0C;&#x5982;&#x679C;&#x8FD8;&#x6CA1;&#x6709;&#x7684;&#x8BDD;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x5230; <a href="https://github.com/" target="_blank" rel="external">Github</a> &#x6CE8;&#x518C;&#x4E00;&#x4E2A;&#x3002;<br>&#x6CE8;&#x518C;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x521B;&#x5EFA;&#x81EA;&#x5DF1;&#x7684; Github Pages&#x3002;</p>
+<h4 id="&#x521B;&#x5EFA;-Github-Pages"><a href="#&#x521B;&#x5EFA;-Github-Pages" class="headerlink" title="&#x521B;&#x5EFA; Github Pages"></a>&#x521B;&#x5EFA; Github Pages</h4><ol>
+<li><p>&#x70B9;&#x51FB;&#x53F3;&#x4E0A;&#x89D2;&#x7684; <strong>+</strong> &#x9009;&#x62E9; <strong>New repository</strong>&#x3002;<br><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14727920175854.png" alt=""></p>
 </li>
-<li><p>在 <strong>Repository name</strong> 填写 <strong>yourname.github.io</strong> 。其中 <strong>yourname</strong>必须与你建立的账户名一致。（与左边 Owner 名相同）<br>Description 可以填写你喜欢的，这里我填写了Blog。点击 <strong>Creat respository</strong> 完成创建。<br><img src="Hexo-Github-Pages-搭建博客/14727922994344.png" alt="-w746"></p>
+<li><p>&#x5728; <strong>Repository name</strong> &#x586B;&#x5199; <strong>yourname.github.io</strong> &#x3002;&#x5176;&#x4E2D; <strong>yourname</strong>&#x5FC5;&#x987B;&#x4E0E;&#x4F60;&#x5EFA;&#x7ACB;&#x7684;&#x8D26;&#x6237;&#x540D;&#x4E00;&#x81F4;&#x3002;&#xFF08;&#x4E0E;&#x5DE6;&#x8FB9; Owner &#x540D;&#x76F8;&#x540C;&#xFF09;<br>Description &#x53EF;&#x4EE5;&#x586B;&#x5199;&#x4F60;&#x559C;&#x6B22;&#x7684;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x586B;&#x5199;&#x4E86;Blog&#x3002;&#x70B9;&#x51FB; <strong>Creat respository</strong> &#x5B8C;&#x6210;&#x521B;&#x5EFA;&#x3002;<br><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14727922994344.png" alt=""></p>
 </li>
-<li><p>创建完成后选择 <strong>Setting</strong> ，下拉到 <strong>GitHub Pages</strong> 选择 <strong>Launch automatic page generator</strong> → <strong>Countinue to layouts</strong> → <strong>Publish page</strong> 。<br><img src="Hexo-Github-Pages-搭建博客/14727924771274.png" alt="-w740"></p>
+<li><p>&#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x540E;&#x9009;&#x62E9; <strong>Setting</strong> &#xFF0C;&#x4E0B;&#x62C9;&#x5230; <strong>GitHub Pages</strong> &#x9009;&#x62E9; <strong>Launch automatic page generator</strong> &#x2192; <strong>Countinue to layouts</strong> &#x2192; <strong>Publish page</strong> &#x3002;<br><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14727924771274.png" alt=""></p>
 </li>
-<li><p>至此， <strong>Github Pages</strong> 创建完成。你可以在 <em><em>yourname.github.io</em></em> 查看你刚刚建立的 Github Pages。</p>
+<li><p>&#x81F3;&#x6B64;&#xFF0C; <strong>Github Pages</strong> &#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5728; <em><em>yourname.github.io</em></em> &#x67E5;&#x770B;&#x4F60;&#x521A;&#x521A;&#x5EFA;&#x7ACB;&#x7684; Github Pages&#x3002;</p>
 </li>
 </ol>
-<h4 id="把-Hexo-部署上去"><a href="#把-Hexo-部署上去" class="headerlink" title="把 Hexo 部署上去"></a>把 Hexo 部署上去</h4><p>打开自己创建的 Blog 文件夹，找到 <strong>_config.yml</strong> （站点配置文件），打开这个文件，下拉到最下面作如下修改。</p>
-<p><img src="Hexo-Github-Pages-搭建博客/14727996008557.png" alt="-w420"></p>
-<p>其中 <strong>repo</strong> 可以在自己创立的 repository 里找到，记得修改成上图形式。</p>
-<p><img src="Hexo-Github-Pages-搭建博客/14727997053634.png" alt="-w460"></p>
-<p>修改完成之后，打开 <em>终端</em> 安装一个扩展，然后完成部署。</p>
+<h4 id="&#x628A;-Hexo-&#x90E8;&#x7F72;&#x4E0A;&#x53BB;"><a href="#&#x628A;-Hexo-&#x90E8;&#x7F72;&#x4E0A;&#x53BB;" class="headerlink" title="&#x628A; Hexo &#x90E8;&#x7F72;&#x4E0A;&#x53BB;"></a>&#x628A; Hexo &#x90E8;&#x7F72;&#x4E0A;&#x53BB;</h4><p>&#x6253;&#x5F00;&#x81EA;&#x5DF1;&#x521B;&#x5EFA;&#x7684; Blog &#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x627E;&#x5230; <strong>_config.yml</strong> &#xFF08;&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF09;&#xFF0C;&#x6253;&#x5F00;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x4E0B;&#x62C9;&#x5230;&#x6700;&#x4E0B;&#x9762;&#x4F5C;&#x5982;&#x4E0B;&#x4FEE;&#x6539;&#x3002;</p>
+<p><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14727996008557.png" alt="-w420"></p>
+<p>&#x5176;&#x4E2D; <strong>repo</strong> &#x53EF;&#x4EE5;&#x5728;&#x81EA;&#x5DF1;&#x521B;&#x7ACB;&#x7684; repository &#x91CC;&#x627E;&#x5230;&#xFF0C;&#x8BB0;&#x5F97;&#x4FEE;&#x6539;&#x6210;&#x4E0A;&#x56FE;&#x5F62;&#x5F0F;&#x3002;</p>
+<p><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14727997053634.png" alt="-w460"></p>
+<p>&#x4FEE;&#x6539;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#xFF0C;&#x6253;&#x5F00; <em>&#x7EC8;&#x7AEF;</em> &#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x6269;&#x5C55;&#xFF0C;&#x7136;&#x540E;&#x5B8C;&#x6210;&#x90E8;&#x7F72;&#x3002;</p>
 <ul>
-<li><code>npm install hexo-deployer-git --save</code> #安装扩展</li>
-<li><code>hexo d</code> #部署</li>
+<li><code>npm install hexo-deployer-git --save</code> #&#x5B89;&#x88C5;&#x6269;&#x5C55;</li>
+<li><code>hexo d</code> #&#x90E8;&#x7F72;</li>
 </ul>
-<p>打开你自己的博客网址 <em><em>yourname.github.io</em></em> 查看。</p>
-<h2 id="站点配置文件及主题配置文件的修改"><a href="#站点配置文件及主题配置文件的修改" class="headerlink" title="站点配置文件及主题配置文件的修改"></a>站点配置文件及主题配置文件的修改</h2><p>Blog 文件夹里面有两个 <strong>_config.yml</strong> 配置文件。其中一个上边打开修改过，称为<strong>站点配置文件</strong>。还有一个在 themes/你的主题名字 里面，称之为<strong>主题配置文件</strong>。<br>站点配置文件的属性在<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">Hexo官网文档</a>可以看到。<br>主题配置文件的修改下面会讲到。<br>下边教大家如何修改主题。</p>
-<h4 id="挑选喜欢的主题"><a href="#挑选喜欢的主题" class="headerlink" title="挑选喜欢的主题"></a>挑选喜欢的主题</h4><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Hexo主题</a>有很多，大家可以自己去挑一个自己喜欢的，这里给大家举个例子。<br>这里我选择了MeiliDu，点击图片进入主题的 Github。</p>
-<p><img src="Hexo-Github-Pages-搭建博客/14728008984981.png" alt="MeiliDu-w422"></p>
-<p>下拉找到 git 命令</p>
-<p><img src="Hexo-Github-Pages-搭建博客/14728023662349.png" alt="-w946"><br>PS：这个界面有介绍如何修改<strong>主题配置</strong>文件的。</p>
-<p>然后我们打开<em>终端</em>，输入</p>
+<p>&#x6253;&#x5F00;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x535A;&#x5BA2;&#x7F51;&#x5740; <em><em>yourname.github.io</em></em> &#x67E5;&#x770B;&#x3002;</p>
+<h2 id="&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x53CA;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4FEE;&#x6539;"><a href="#&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x53CA;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4FEE;&#x6539;" class="headerlink" title="&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x53CA;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4FEE;&#x6539;"></a>&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x53CA;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4FEE;&#x6539;</h2><p>Blog &#x6587;&#x4EF6;&#x5939;&#x91CC;&#x9762;&#x6709;&#x4E24;&#x4E2A; <strong>_config.yml</strong> &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x4E0A;&#x8FB9;&#x6253;&#x5F00;&#x4FEE;&#x6539;&#x8FC7;&#xFF0C;&#x79F0;&#x4E3A;<strong>&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</strong>&#x3002;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x5728; themes/&#x4F60;&#x7684;&#x4E3B;&#x9898;&#x540D;&#x5B57; &#x91CC;&#x9762;&#xFF0C;&#x79F0;&#x4E4B;&#x4E3A;<strong>&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</strong>&#x3002;<br>&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x5C5E;&#x6027;&#x5728;<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">Hexo&#x5B98;&#x7F51;&#x6587;&#x6863;</a>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x3002;<br>&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4FEE;&#x6539;&#x4E0B;&#x9762;&#x4F1A;&#x8BB2;&#x5230;&#x3002;<br>&#x4E0B;&#x8FB9;&#x6559;&#x5927;&#x5BB6;&#x5982;&#x4F55;&#x4FEE;&#x6539;&#x4E3B;&#x9898;&#x3002;</p>
+<h4 id="&#x6311;&#x9009;&#x559C;&#x6B22;&#x7684;&#x4E3B;&#x9898;"><a href="#&#x6311;&#x9009;&#x559C;&#x6B22;&#x7684;&#x4E3B;&#x9898;" class="headerlink" title="&#x6311;&#x9009;&#x559C;&#x6B22;&#x7684;&#x4E3B;&#x9898;"></a>&#x6311;&#x9009;&#x559C;&#x6B22;&#x7684;&#x4E3B;&#x9898;</h4><p><a href="https://hexo.io/themes/" target="_blank" rel="external">Hexo&#x4E3B;&#x9898;</a>&#x6709;&#x5F88;&#x591A;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x53BB;&#x6311;&#x4E00;&#x4E2A;&#x81EA;&#x5DF1;&#x559C;&#x6B22;&#x7684;&#xFF0C;&#x8FD9;&#x91CC;&#x7ED9;&#x5927;&#x5BB6;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;<br>&#x8FD9;&#x91CC;&#x6211;&#x9009;&#x62E9;&#x4E86;MeiliDu&#xFF0C;&#x70B9;&#x51FB;&#x56FE;&#x7247;&#x8FDB;&#x5165;&#x4E3B;&#x9898;&#x7684; Github&#x3002;</p>
+<p><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14728008984981.png" alt="MeiliDu-w422"></p>
+<p>&#x4E0B;&#x62C9;&#x627E;&#x5230; git &#x547D;&#x4EE4;</p>
+<p><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14728023662349.png" alt="-w946"><br>PS&#xFF1A;&#x8FD9;&#x4E2A;&#x754C;&#x9762;&#x6709;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x4FEE;&#x6539;<strong>&#x4E3B;&#x9898;&#x914D;&#x7F6E;</strong>&#x6587;&#x4EF6;&#x7684;&#x3002;</p>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x6253;&#x5F00;<em>&#x7EC8;&#x7AEF;</em>&#xFF0C;&#x8F93;&#x5165;</p>
 <ul>
 <li><code>hexo clean</code></li>
 <li><code>git clone https://github.com/HoverBaum/meilidu-hexo.git themes/meilidu</code></li>
 </ul>
-<p>这样我们就可以把 MeiliDu 主题下载下来了。打开 Blog→themes 就可以看到 <strong>meilidu</strong> 文件夹。</p>
-<h4 id="启用新主题"><a href="#启用新主题" class="headerlink" title="启用新主题"></a>启用新主题</h4><ol>
-<li><p>打开<strong>站点配置文件</strong>，下拉找到 <em>theme</em> 把后面修改为 <em>meilidu</em> 。<br><img src="Hexo-Github-Pages-搭建博客/14728025864407.png" alt="-w263"></p>
+<p>&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x628A; MeiliDu &#x4E3B;&#x9898;&#x4E0B;&#x8F7D;&#x4E0B;&#x6765;&#x4E86;&#x3002;&#x6253;&#x5F00; Blog&#x2192;themes &#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x5230; <strong>meilidu</strong> &#x6587;&#x4EF6;&#x5939;&#x3002;</p>
+<h4 id="&#x542F;&#x7528;&#x65B0;&#x4E3B;&#x9898;"><a href="#&#x542F;&#x7528;&#x65B0;&#x4E3B;&#x9898;" class="headerlink" title="&#x542F;&#x7528;&#x65B0;&#x4E3B;&#x9898;"></a>&#x542F;&#x7528;&#x65B0;&#x4E3B;&#x9898;</h4><ol>
+<li><p>&#x6253;&#x5F00;<strong>&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</strong>&#xFF0C;&#x4E0B;&#x62C9;&#x627E;&#x5230; <em>theme</em> &#x628A;&#x540E;&#x9762;&#x4FEE;&#x6539;&#x4E3A; <em>meilidu</em> &#x3002;<br><img src="/2016/09/04/Hexo-Github-Pages-&#x642D;&#x5EFA;&#x535A;&#x5BA2;/14728025864407.png" alt="-w263"></p>
 </li>
-<li><p>打开<em>终端</em>，执行以下命令。</p>
+<li><p>&#x6253;&#x5F00;<em>&#x7EC8;&#x7AEF;</em>&#xFF0C;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x3002;</p>
 </li>
 </ol>
 <ul>
 <li><code>cd themes/meilidu</code></li>
 <li><code>git pull</code></li>
-<li><code>hexo g</code> #记得切换到 Blog文件夹</li>
+<li><code>hexo g</code> #&#x8BB0;&#x5F97;&#x5207;&#x6362;&#x5230; Blog&#x6587;&#x4EF6;&#x5939;</li>
 <li><code>hexo s</code></li>
 </ul>
-<p>然后就可以在 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 查看新主题了。<br>看完记得<code>control + C</code>退出，然后<code>hexo d</code>部署到 Github Pages 。</p>
-<h5 id="这里有个小问题"><a href="#这里有个小问题" class="headerlink" title="这里有个小问题"></a>这里有个小问题</h5><p>你需要自己创建 About 界面。</p>
+<p>&#x7136;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x5728; <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> &#x67E5;&#x770B;&#x65B0;&#x4E3B;&#x9898;&#x4E86;&#x3002;<br>&#x770B;&#x5B8C;&#x8BB0;&#x5F97;<code>control + C</code>&#x9000;&#x51FA;&#xFF0C;&#x7136;&#x540E;<code>hexo d</code>&#x90E8;&#x7F72;&#x5230; Github Pages &#x3002;</p>
+<h5 id="&#x8FD9;&#x91CC;&#x6709;&#x4E2A;&#x5C0F;&#x95EE;&#x9898;"><a href="#&#x8FD9;&#x91CC;&#x6709;&#x4E2A;&#x5C0F;&#x95EE;&#x9898;" class="headerlink" title="&#x8FD9;&#x91CC;&#x6709;&#x4E2A;&#x5C0F;&#x95EE;&#x9898;"></a>&#x8FD9;&#x91CC;&#x6709;&#x4E2A;&#x5C0F;&#x95EE;&#x9898;</h5><p>&#x4F60;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x521B;&#x5EFA; About &#x754C;&#x9762;&#x3002;</p>
 <blockquote>
-<p>这里参考 <a href="https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA-%22%E5%85%B3%E4%BA%8E%E6%88%91%22-%E9%A1%B5%E9%9D%A2" target="_blank" rel="external">创建“关于我”界面</a></p>
+<p>&#x8FD9;&#x91CC;&#x53C2;&#x8003; <a href="https://github.com/iissnan/hexo-theme-next/wiki/%E5%88%9B%E5%BB%BA-%22%E5%85%B3%E4%BA%8E%E6%88%91%22-%E9%A1%B5%E9%9D%A2" target="_blank" rel="external">&#x521B;&#x5EFA;&#x201C;&#x5173;&#x4E8E;&#x6211;&#x201D;&#x754C;&#x9762;</a></p>
 </blockquote>
-<p>打开 <em>终端</em> 输入</p>
+<p>&#x6253;&#x5F00; <em>&#x7EC8;&#x7AEF;</em> &#x8F93;&#x5165;</p>
 <ul>
 <li><code>hexo new page &quot;about&quot;</code></li>
 </ul>
-<p>可以看到 <em>sourse</em> 文件夹里已经多了一个 <em>about</em> 文件夹，里面有一个 <strong>index.md</strong> 文件，打开在下面输入你想在此界面显示的内容即可。</p>
-<h2 id="如何发布新文章"><a href="#如何发布新文章" class="headerlink" title="如何发布新文章"></a>如何发布新文章</h2><p>思路是先在本地创建一个新文章，然后再部署上去。</p>
-<h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><p>打开 <em>终端</em> 输入命令。</p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230; <em>sourse</em> &#x6587;&#x4EF6;&#x5939;&#x91CC;&#x5DF2;&#x7ECF;&#x591A;&#x4E86;&#x4E00;&#x4E2A; <em>about</em> &#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x91CC;&#x9762;&#x6709;&#x4E00;&#x4E2A; <strong>index.md</strong> &#x6587;&#x4EF6;&#xFF0C;&#x6253;&#x5F00;&#x5728;&#x4E0B;&#x9762;&#x8F93;&#x5165;&#x4F60;&#x60F3;&#x5728;&#x6B64;&#x754C;&#x9762;&#x663E;&#x793A;&#x7684;&#x5185;&#x5BB9;&#x5373;&#x53EF;&#x3002;</p>
+<h2 id="&#x5982;&#x4F55;&#x53D1;&#x5E03;&#x65B0;&#x6587;&#x7AE0;"><a href="#&#x5982;&#x4F55;&#x53D1;&#x5E03;&#x65B0;&#x6587;&#x7AE0;" class="headerlink" title="&#x5982;&#x4F55;&#x53D1;&#x5E03;&#x65B0;&#x6587;&#x7AE0;"></a>&#x5982;&#x4F55;&#x53D1;&#x5E03;&#x65B0;&#x6587;&#x7AE0;</h2><p>&#x601D;&#x8DEF;&#x662F;&#x5148;&#x5728;&#x672C;&#x5730;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x6587;&#x7AE0;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x90E8;&#x7F72;&#x4E0A;&#x53BB;&#x3002;</p>
+<h3 id="&#x521B;&#x5EFA;&#x65B0;&#x6587;&#x7AE0;"><a href="#&#x521B;&#x5EFA;&#x65B0;&#x6587;&#x7AE0;" class="headerlink" title="&#x521B;&#x5EFA;&#x65B0;&#x6587;&#x7AE0;"></a>&#x521B;&#x5EFA;&#x65B0;&#x6587;&#x7AE0;</h3><p>&#x6253;&#x5F00; <em>&#x7EC8;&#x7AEF;</em> &#x8F93;&#x5165;&#x547D;&#x4EE4;&#x3002;</p>
 <ul>
 <li><code>hexo new &quot;the title of your blog&quot;</code></li>
 </ul>
-<p>即可创建新文章。</p>
-<p>你可以在 <em>source</em> →  <em>posts</em> 里面找到你刚刚创建的文章。</p>
-<h3 id="部署上-Github-Pages"><a href="#部署上-Github-Pages" class="headerlink" title="部署上 Github Pages"></a>部署上 Github Pages</h3><p>当你完成该文章后打开 <em>终端</em>，</p>
+<p>&#x5373;&#x53EF;&#x521B;&#x5EFA;&#x65B0;&#x6587;&#x7AE0;&#x3002;</p>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x5728; <em>source</em> &#x2192;  <em>posts</em> &#x91CC;&#x9762;&#x627E;&#x5230;&#x4F60;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684;&#x6587;&#x7AE0;&#x3002;</p>
+<h3 id="&#x521B;&#x5EFA;-SSH-Key"><a href="#&#x521B;&#x5EFA;-SSH-Key" class="headerlink" title="&#x521B;&#x5EFA; SSH Key"></a>&#x521B;&#x5EFA; SSH Key</h3><p>&#x6253;&#x5F00; <em>&#x7EC8;&#x7AEF;</em> &#xFF0C;&#x8F93;&#x5165; <code>ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</code> &#xFF0C;&#x4E00;&#x76F4;&#x56DE;&#x8F66;&#xFF0C;&#x521B;&#x5EFA; SSH Key &#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5728; <strong>.ssh</strong>&#x627E;&#x5230; <strong>id_rsa.pub</strong></p>
+<p>&#x767B;&#x5165; Github , &#x6253;&#x5F00; Account setting &#x2192; SSH Key &#x2192; Add SSH Key &#x3002; Title &#x968F;&#x610F;&#x586B;&#x5199;&#xFF0C;&#x5728; Key &#x6587;&#x672C;&#x7C98;&#x8D34; <strong>id_rsa.pub</strong> &#x91CC;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<h3 id="&#x90E8;&#x7F72;&#x4E0A;-Github-Pages"><a href="#&#x90E8;&#x7F72;&#x4E0A;-Github-Pages" class="headerlink" title="&#x90E8;&#x7F72;&#x4E0A; Github Pages"></a>&#x90E8;&#x7F72;&#x4E0A; Github Pages</h3><p>&#x5F53;&#x4F60;&#x5B8C;&#x6210;&#x8BE5;&#x6587;&#x7AE0;&#x540E;&#x6253;&#x5F00; <em>&#x7EC8;&#x7AEF;</em>&#xFF0C;</p>
 <ul>
 <li><code>hexo g</code></li>
 <li><code>hexo d</code></li>
 </ul>
-<p>即可完成部署。当然你也可以<code>hexo s</code>先在本地查看。</p>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><p>下面是关于 hexo 的有关提示。</p>
-<h3 id="常用命令简写"><a href="#常用命令简写" class="headerlink" title="常用命令简写"></a>常用命令简写</h3><ul>
+<p>&#x5373;&#x53EF;&#x5B8C;&#x6210;&#x90E8;&#x7F72;&#x3002;&#x5F53;&#x7136;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;<code>hexo s</code>&#x5148;&#x5728;&#x672C;&#x5730;&#x67E5;&#x770B;&#x3002;</p>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><p>&#x4E0B;&#x9762;&#x662F;&#x5173;&#x4E8E; hexo &#x7684;&#x6709;&#x5173;&#x63D0;&#x793A;&#x3002;</p>
+<h3 id="&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x7B80;&#x5199;"><a href="#&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x7B80;&#x5199;" class="headerlink" title="&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x7B80;&#x5199;"></a>&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x7B80;&#x5199;</h3><ul>
 <li><code>hexo g == hexo generate</code></li>
 <li><code>hexo d == hexo deploy</code></li>
 <li><code>hexo s == hexo server</code></li>
 <li><code>hexo n == hexo new</code></li>
 </ul>
-<h3 id="如果遇到问题咋办？"><a href="#如果遇到问题咋办？" class="headerlink" title="如果遇到问题咋办？"></a>如果遇到问题咋办？</h3><p><strong>Google</strong> ， <strong>Google</strong> ， <strong>Google</strong> ！</p>
+<h3 id="&#x5982;&#x679C;&#x9047;&#x5230;&#x95EE;&#x9898;&#x548B;&#x529E;&#xFF1F;"><a href="#&#x5982;&#x679C;&#x9047;&#x5230;&#x95EE;&#x9898;&#x548B;&#x529E;&#xFF1F;" class="headerlink" title="&#x5982;&#x679C;&#x9047;&#x5230;&#x95EE;&#x9898;&#x548B;&#x529E;&#xFF1F;"></a>&#x5982;&#x679C;&#x9047;&#x5230;&#x95EE;&#x9898;&#x548B;&#x529E;&#xFF1F;</h3><p><strong>Google</strong> &#xFF0C; <strong>Google</strong> &#xFF0C; <strong>Google</strong> &#xFF01;</p>
 <blockquote>
-<p>因为自己在搭建博客的时候遇到一些问题，耗费了不少时间。有些细节其他教程可能没有提到，所以自己就写了一下教程。这篇教程主要是给自己博客写点东西，其次是为了提高自己对 Markdown 语法的熟练度。所以涉及的东西很基础，没有什么高端技巧。如果有人看的话，希望对你有帮助。</p>
+<p>&#x56E0;&#x4E3A;&#x81EA;&#x5DF1;&#x5728;&#x642D;&#x5EFA;&#x535A;&#x5BA2;&#x7684;&#x65F6;&#x5019;&#x9047;&#x5230;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x8017;&#x8D39;&#x4E86;&#x4E0D;&#x5C11;&#x65F6;&#x95F4;&#x3002;&#x6709;&#x4E9B;&#x7EC6;&#x8282;&#x5176;&#x4ED6;&#x6559;&#x7A0B;&#x53EF;&#x80FD;&#x6CA1;&#x6709;&#x63D0;&#x5230;&#xFF0C;&#x6240;&#x4EE5;&#x81EA;&#x5DF1;&#x5C31;&#x5199;&#x4E86;&#x4E00;&#x4E0B;&#x6559;&#x7A0B;&#x3002;&#x8FD9;&#x7BC7;&#x6559;&#x7A0B;&#x4E3B;&#x8981;&#x662F;&#x7ED9;&#x81EA;&#x5DF1;&#x535A;&#x5BA2;&#x5199;&#x70B9;&#x4E1C;&#x897F;&#xFF0C;&#x5176;&#x6B21;&#x662F;&#x4E3A;&#x4E86;&#x63D0;&#x9AD8;&#x81EA;&#x5DF1;&#x5BF9; Markdown &#x8BED;&#x6CD5;&#x7684;&#x719F;&#x7EC3;&#x5EA6;&#x3002;&#x6240;&#x4EE5;&#x6D89;&#x53CA;&#x7684;&#x4E1C;&#x897F;&#x5F88;&#x57FA;&#x7840;&#xFF0C;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x9AD8;&#x7AEF;&#x6280;&#x5DE7;&#x3002;&#x5982;&#x679C;&#x6709;&#x4EBA;&#x770B;&#x7684;&#x8BDD;&#xFF0C;&#x5E0C;&#x671B;&#x5BF9;&#x4F60;&#x6709;&#x5E2E;&#x52A9;&#x3002;</p>
 </blockquote>
 </article><ul class="pager blog-pager"><li class="next"><a href="/2016/08/31/My-New-Blog/" data-toggle="tooltip" data-placement="top" title="My New Blog">Next Post →</a></li></ul><div class="disqus-comments"><div class="comments"><div id="disqus_thread"></div></div></div><script>var url_parts = window.location.href.split("?");
 var disqus_url = url_parts[0];
